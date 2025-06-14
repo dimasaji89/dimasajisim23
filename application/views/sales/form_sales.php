@@ -13,7 +13,7 @@
                 <form action="<?= base_url('sales/insert'); ?>" method="POST">
                     <div class="form-group">
                         <label for="nama_sales">Nama Sales</label>
-                        <input type="text" name="nama_sales" id="nama_sales" class="form-control" placeholder="Masukkan Nama" required>
+                        <input type="text" name="nama_sales" id="nama_sales" class="form-control" placeholder="Masukkan Nama Sales" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Simpan</button>
                 </form>
