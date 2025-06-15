@@ -38,7 +38,7 @@ class Auth extends CI_Controller{
                 $this->session->set_flashdata('success','Pendaftaran Berhasil silahkan login');
                 redirect('auth/login');
             }else{
-                $this->session->set_flashdata('error','Pendaftaran gagal silahkan coba lagi');
+                $this->session->set_flashdata('error','Pendaftaran Gagal silahkan coba lagi');
                 redirect('auth/register');
             }
         }
