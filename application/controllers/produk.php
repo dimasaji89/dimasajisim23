@@ -40,7 +40,7 @@ class Produk extends MY_Controller {
             $this->session->set_flashdata('success','Produk berhasil disimpan');
             redirect('produk');
         } else {
-            $this->session->set_flashdata('error','Produk gagal disimpan');
+            $this->session->set_flashdata('error','Produk Gagal disimpan');
             redirect('produk');
         }
     }
